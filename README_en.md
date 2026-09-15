@@ -1,8 +1,9 @@
-﻿# Sephiria ModMaker
+# Sephiria ModMaker
+
+For manual installation, download **only SephiriaModMaker-version.zip** from the release. **You do not need to download update.json or put it in the installation folder.** The updater reads it to check the version and verify the download. Using the update command in the editor also handles the ZIP download for you.
 
 - README and patch notes are available in the GitHub repository and are not included in release ZIPs.
 - The editor checks for updates on every launch. A new version opens an update dialog; dismiss it to update later from the banner. Automatic dialogs respect disabled checks and skipped versions.
-
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
@@ -502,3 +503,9 @@ Contact: Discord `Xetsumei`
 
 This repository and its contributors are in no way affiliated with Sephiria, TEAM HORAY, or any related organizations.
 Game assets are not included in this repository, and you should not redistribute game files when sharing mods.
+
+## Hide from Journal / Training (2.5.5)
+
+Enable **Hide from Journal / Training** at the top of the item details to hide an item from both lists and prevent retrieving it there. This also applies to journal search and favorites, and bulk retrieval of training favorites. Items already obtained remain usable.
+
+Reward, shop, unlock and dimensional-pocket rules stay unchanged. To make a secret artifact obtainable only through a specific item effect, also enable **Exclude from rewards**. This is saved as `hideFromJournalAndTraining` in JSON; existing mods without the field remain visible. Use editor and game runtime version 2.5.5 or later.
