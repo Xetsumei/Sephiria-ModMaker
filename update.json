@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "version": "2.5.13",
+  "zipName": "SephiriaModMaker-2.5.13.zip",
+  "sha256": "ef57d5383a135bb8c916f881edac78c45bd5c55e113baacd3ebae9aa34b915d9",
+  "bytes": 2075730,
+  "minimumDotnet": "10.0.0",
+  "notesUrl": "https://github.com/Xetsumei/Sephiria-ModMaker/releases/tag/2.5.13",
+  "signature": "kPhDFycRwXcp7yJex9G51nyIuDP41U7kDC7Y9XF/5fBdvK3Sr09dONFjjB/Nk1/Nh0uwMqP53G3oGfQChvGZ4Q=="
+}

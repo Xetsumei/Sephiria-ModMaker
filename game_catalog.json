@@ -1,0 +1,1122 @@
+{
+ "gameVersion": "scanned-2026-08-03",
+ "itemTypes": [
+  "Misc",
+  "ThrowingWeapon",
+  "Potion",
+  "Food",
+  "Scroll",
+  "Charm",
+  "StoneTablet",
+  "Identifiable"
+ ],
+ "rarities": [
+  "Common",
+  "Uncommon",
+  "Rare",
+  "Legend",
+  "Eternal"
+ ],
+ "activeTypes": [
+  "Default",
+  "Locked",
+  "Hidden",
+  "Disabled",
+  "PocketDimensionShop",
+  "TestOnly",
+  "WitchHat"
+ ],
+ "itemBehaviours": [
+  "None",
+  "StartUp",
+  "Boosting"
+ ],
+ "statuses": [
+  {
+   "id": "ATTACK_SPEED",
+   "en": "Attack Speed",
+   "ko": "공격 속도"
+  },
+  {
+   "id": "BASIC_ATTACK_DAMAGE",
+   "en": "Normal Attack Damage",
+   "ko": "일반 공격 피해"
+  },
+  {
+   "id": "BLUE_BURN_CHANGE",
+   "en": "<tag=Burn> changes to <tag=BlueBurn>",
+   "ko": "<tag=Burn>이 <tag=BlueBurn>으로 변경"
+  },
+  {
+   "id": "BOLTMAGIC",
+   "en": "Bolt Magic",
+   "ko": "볼트 마법"
+  },
+  {
+   "id": "BOLT_MAGIC_HOMING",
+   "en": "<tag=BoltMagic> homes in on enemies",
+   "ko": "<tag=BoltMagic>이 적을 향해 유도"
+  },
+  {
+   "id": "BOSS_REWARD_DICE",
+   "en": "Acquire {VALUE} dice upon defeating a boss",
+   "ko": "보스 처치 시 주사위 {VALUE}개 획득"
+  },
+  {
+   "id": "BUFF_DURATION",
+   "en": "Duration of Buffs Applied by Self",
+   "ko": "자신이 부여한 버프의 지속시간"
+  },
+  {
+   "id": "BURN_ADD",
+   "en": "Grants <tag=Burn> {VALUE} additional times",
+   "ko": "<tag=Burn> 부여 시 {VALUE}회 추가 부여"
+  },
+  {
+   "id": "BURN_DAMAGE",
+   "en": "<tag=Burn> Damage",
+   "ko": "<tag=Burn> 피해량"
+  },
+  {
+   "id": "BURN_DURATION",
+   "en": "<tag=Burn> duration",
+   "ko": "<tag=Burn> 디버프 지속시간"
+  },
+  {
+   "id": "BURN_EVO",
+   "en": "Base damage multiplier for <tag=Burn> changes from {DAMAGE} to {DAMAGE_EVO}%",
+   "ko": "<tag=Burn>의 기본 피해 배율이 {DAMAGE}->{DAMAGE_EVO}%로 변경"
+  },
+  {
+   "id": "BURN_IGNITE",
+   "en": "Deals {VALUE} fire damage when inflicting <tag=Burn>",
+   "ko": "<tag=Burn> 디버프를 걸 때 {VALUE}의 화염 피해를 가함"
+  },
+  {
+   "id": "BURN_SPEED",
+   "en": "Attack Speed of <tag=Burn>",
+   "ko": "<tag=Burn> 공격 속도"
+  },
+  {
+   "id": "BURN_STACK",
+   "en": "<tag=Burn> <tag=Stacks>",
+   "ko": "<tag=Burn> <tag=Stacks>"
+  },
+  {
+   "id": "CHARGING_CHARM_AMPLIFY",
+   "en": "Additional activation of <tag=FrostRelic> {VALUE} times",
+   "ko": "<tag=FrostRelic>가 {VALUE}회 추가 발동"
+  },
+  {
+   "id": "CHARGING_CHARM_BONUS",
+   "en": "<tag=FrostRelic> Charge Speed",
+   "ko": "<tag=FrostRelic> 충전 속도"
+  },
+  {
+   "id": "CHARGING_CHARM_RETRIGGER_BY_ATTACKSPEED",
+   "en": "Chance for <tag=FrostRelic> to trigger again every <tag=AttackSpeed><tag=CONST:chargingCharmRetriggerByAttackSpeed>%",
+   "ko": "<tag=AttackSpeed><tag=CONST:chargingCharmRetriggerByAttackSpeed>%마다 <tag=FrostRelic>가 다시 발동될 확률"
+  },
+  {
+   "id": "CHARM_DAMAGE_BONUS",
+   "en": "<tag=Artifact> Damage",
+   "ko": "<tag=Artifact> 피해량"
+  },
+  {
+   "id": "CHIM_DAMAGE_BONUS",
+   "en": "Extra <tag=Chim> damage",
+   "ko": "<tag=Chim> 피해량"
+  },
+  {
+   "id": "COMBO_BONUS_DAMAGE",
+   "en": "<tag=FinalDamage> Bonus for each Activated Combo Type",
+   "ko": "활성화된 콤보 종류당 <tag=FinalDamage> 보너스"
+  },
+  {
+   "id": "COOLDOWN_RECOVERY_SPEED",
+   "en": "",
+   "ko": ""
+  },
+  {
+   "id": "CRITICAL_DAMAGE_RATE",
+   "en": "Critical Damage",
+   "ko": "치명타 피해"
+  },
+  {
+   "id": "CRITICAL_RESIST",
+   "en": "<tag=Critical> Resistance",
+   "ko": "<tag=Critical> 저항"
+  },
+  {
+   "id": "CROSSBOWAMMO",
+   "en": "Magazine Capacity",
+   "ko": "탄창 용량"
+  },
+  {
+   "id": "CROSSBOWFIRESPEED",
+   "en": "Crossbow Firing Speed",
+   "ko": "석궁 발사 속도"
+  },
+  {
+   "id": "CROSSBOW_RELOADSPEED",
+   "en": "Crossbow Reload Speed",
+   "ko": "석궁 재장전 속도"
+  },
+  {
+   "id": "DAGGER_TRANCE_BONUS",
+   "en": "Get additional {VALUE} when acquiring <tag=WeaponAction_Trance>",
+   "ko": "<tag=WeaponAction_Trance> 획득 시 {VALUE} 추가 획득"
+  },
+  {
+   "id": "DARKCLOUD",
+   "en": "Storm Cloud",
+   "ko": "먹구름"
+  },
+  {
+   "id": "DARK_CLOUD_DAMAGE",
+   "en": "Extra <tag=DarkCloud> damage",
+   "ko": "<tag=DarkCloud>의 추가 피해량"
+  },
+  {
+   "id": "DARK_CLOUD_ICE",
+   "en": "<tag=DarkCloud> changes to <tag=SnowCloud>",
+   "ko": "<tag=DarkCloud>이 <tag=SnowCloud>으로 변경됨"
+  },
+  {
+   "id": "DARK_CLOUD_KEEP",
+   "en": "<tag=DarkCloud> is not consumed with a {VALUE} chance",
+   "ko": "<tag=DarkCloud>이 {VALUE} 확률로 소모되지 않음"
+  },
+  {
+   "id": "DARK_CLOUD_LUCK",
+   "en": "{VALUE}% chance for enhanced <tag=DarkCloud> lightning bolts",
+   "ko": "<tag=DarkCloud>의 벼락이 {VALUE}% 확률로 강화되어 발사됨"
+  },
+  {
+   "id": "DARK_CLOUD_MULTISHOT",
+   "en": "<tag=DarkCloud> Attacks with a multishot of {VALUE}",
+   "ko": "<tag=DarkCloud>이 {VALUE}점사로 공격함"
+  },
+  {
+   "id": "DARK_CLOUD_SPEED",
+   "en": "Consumption Speed of <tag=DarkCloud>",
+   "ko": "<tag=DarkCloud>의 소모 속도"
+  },
+  {
+   "id": "DASH_ATTACK_DAMAGE",
+   "en": "Dash Attack Damage",
+   "ko": "대시 공격 피해"
+  },
+  {
+   "id": "DASH_COUNT",
+   "en": "Dash Count",
+   "ko": "대시 횟수"
+  },
+  {
+   "id": "DASH_DISABLE",
+   "en": "Dash Disabled",
+   "ko": "대시 불가"
+  },
+  {
+   "id": "DASH_EVASION",
+   "en": "<tag=Dash> invincibility is treated as a <tag=Evasion> success effect",
+   "ko": "<tag=Dash> 무적은 <tag=Evasion> 성공 효과로 판정됨"
+  },
+  {
+   "id": "DASH_INVINCIBLE_TIME_BONUS",
+   "en": "Invincibility window bonus while dashing",
+   "ko": "대시 중 무적 시간 보너스"
+  },
+  {
+   "id": "DASH_RECOVERY_SPEED",
+   "en": "Dash Recovery Speed",
+   "ko": "대시 회복 속도"
+  },
+  {
+   "id": "DASH_SPEED",
+   "en": "Dash speed",
+   "ko": "대시 속도"
+  },
+  {
+   "id": "DEBUFF_DAMAGE",
+   "en": "Damage dealt with <tag=Debuff>",
+   "ko": "<tag=Debuff>로 주는 피해량"
+  },
+  {
+   "id": "DEBUFF_DURATION",
+   "en": "Duration of all debuffs inflicted on enemies",
+   "ko": "적에게 부여하는 모든 디버프의 지속시간"
+  },
+  {
+   "id": "DEFENSE",
+   "en": "Defense",
+   "ko": "방어력"
+  },
+  {
+   "id": "DEFENSE_TO_ATTACK",
+   "en": "No damage reduction from <tag=Defense>, but increases damage dealt by increased <tag=DamageReduction>",
+   "ko": "<tag=Defense>에 따른 피해 감소가 적용되지 않지만, 증가된 <tag=DamageReduction>만큼 주는 피해 증가"
+  },
+  {
+   "id": "DIMENSION_POCKET",
+   "en": "<tag=TEXT:DimensionPocket> Capacity",
+   "ko": "<tag=TEXT:DimensionPocket> 용량"
+  },
+  {
+   "id": "DIRECT_ATTACK_BURN",
+   "en": "{VALUE} chance to inflict <tag=Burn> debuff upon <tag=WeaponAction_DirectAttack>",
+   "ko": "<tag=WeaponAction_DirectAttack> 시 {VALUE} 확률로 <tag=Burn> 디버프 부여"
+  },
+  {
+   "id": "DIRECT_ATTACK_ELECTRIC",
+   "en": "{VALUE} chance to inflict <tag=Electric> debuff upon <tag=WeaponAction_DirectAttack>;",
+   "ko": "<tag=WeaponAction_DirectAttack> 시 {VALUE} 확률로 <tag=Electric> 디버프 부여"
+  },
+  {
+   "id": "DIRECT_ATTACK_FROSTBITE",
+   "en": "{VALUE} chance to inflict <tag=Frostbite> debuff upon <tag=WeaponAction_DirectAttack>",
+   "ko": "<tag=WeaponAction_DirectAttack> 시 {VALUE} 확률로 <tag=Frostbite> 디버프 부여"
+  },
+  {
+   "id": "ELECTRIC_DAMAGE",
+   "en": "<tag=Electric> extra damage",
+   "ko": "<tag=Electric> 피해량"
+  },
+  {
+   "id": "ELECTRIC_LUCK",
+   "en": "When <tag=Electric> is applied, apply <tag=AdvancedElectric> with a {VALUE} chance",
+   "ko": "<tag=Electric> 부여 시 {VALUE} 확률로 <tag=AdvancedElectric> 부여"
+  },
+  {
+   "id": "ELECTRIC_QUICKNESS",
+   "en": "<tag=Electric> Activation Time {VALUE}",
+   "ko": "<tag=Electric>이 발동하는 시간 {VALUE}"
+  },
+  {
+   "id": "ELECTRIC_STACK",
+   "en": "<tag=Electric> <tag=Stacks>",
+   "ko": "<tag=Electric> <tag=Stacks>"
+  },
+  {
+   "id": "ELITE_DAMAGE",
+   "en": "Bonus damage dealt to <tag=EnemyType_Boss> and <tag=EnemyType_Miniboss>",
+   "ko": "<tag=EnemyType_Boss>와 <tag=EnemyType_Miniboss>에게 주는 추가 피해량"
+  },
+  {
+   "id": "EVASION",
+   "en": "Evasion",
+   "ko": "회피"
+  },
+  {
+   "id": "EVASION_COOLDOWN",
+   "en": "Accelerate all <tag=Magic> cooldowns by {VALUE} upon successful <tag=Evasion>",
+   "ko": "<tag=Evasion> 성공 시 모든 <tag=Magic> 재사용 대기시간 {VALUE} 가속"
+  },
+  {
+   "id": "EVASION_DISABLE",
+   "en": "<tag=Evasion> Disabled",
+   "ko": "<tag=Evasion> 불가"
+  },
+  {
+   "id": "EXP_DROP",
+   "en": "Experience Drop",
+   "ko": "경험치 드롭"
+  },
+  {
+   "id": "EXTRA_ITEM_CHOICES",
+   "en": "Additional Item Choices",
+   "ko": "추가 아이템 선택지"
+  },
+  {
+   "id": "EXTRA_LIFE",
+   "en": "Revive with 60% HP upon death ({VALUE} times)",
+   "ko": "사망 시 60%의 체력으로 부활 ({VALUE}회)"
+  },
+  {
+   "id": "EXTRA_MIRACLE_CHOICES",
+   "en": "Additional Miracle Choices",
+   "ko": "추가 기적 선택지"
+  },
+  {
+   "id": "EXTRA_WEAPON_CHOICES",
+   "en": "Additional Weapon Choices",
+   "ko": "추가 무기 선택지"
+  },
+  {
+   "id": "FINAL_AP",
+   "en": "Final AP",
+   "ko": "최종 주문력"
+  },
+  {
+   "id": "FINAL_HP",
+   "en": "Final HP",
+   "ko": "최종 HP"
+  },
+  {
+   "id": "FINAL_MP",
+   "en": "Final MP",
+   "ko": "최종 MP"
+  },
+  {
+   "id": "FINAL_WEAPONDAMAGE",
+   "en": "<tag=Weapon> Damage",
+   "ko": "<tag=Weapon> 피해량"
+  },
+  {
+   "id": "FIRE_DAMAGE",
+   "en": "Fire Damage",
+   "ko": "화염속성 피해"
+  },
+  {
+   "id": "FIRE_DAMAGE_AMP",
+   "en": "<tag=FireDamage> Amplification",
+   "ko": "<tag=FireDamage> 증폭"
+  },
+  {
+   "id": "FIRE_DEFENSE",
+   "en": "<tag=Elemental_Fire> Resistance",
+   "ko": "<tag=Elemental_Fire> 피해 저항"
+  },
+  {
+   "id": "FIXED_DASH",
+   "en": "Dash count fixed at {VALUE}",
+   "ko": "대시 횟수가 {VALUE}회로 고정"
+  },
+  {
+   "id": "FLAMEGROUND_DAMAGE",
+   "en": "Blazing Field Damage",
+   "ko": "불길 피해"
+  },
+  {
+   "id": "FLAMEGROUND_DURATION",
+   "en": "Blazing Field Duration",
+   "ko": "불길 지속시간"
+  },
+  {
+   "id": "FLAMEGROUND_RANGE",
+   "en": "Blazing Field Radius",
+   "ko": "불길 범위"
+  },
+  {
+   "id": "FLAMESWORD",
+   "en": "Solar Blade",
+   "ko": "태양검"
+  },
+  {
+   "id": "FLAME_SWORD_ADDITIONAL_ATTACK_FROM_WEAPON",
+   "en": "When dealing <tag=Weapon:noicon> damage, additionally activates <tag=FlameSword> {VALUE} times",
+   "ko": "<tag=Weapon:noicon> 피해를 입힐 시, <tag=FlameSword> {VALUE}회 추가 발동"
+  },
+  {
+   "id": "FLAME_SWORD_CALLBACK_FROST",
+   "en": "<tag=FlameSword> activates even with <tag=FrostRelic> attack",
+   "ko": "<tag=FrostRelic>의 공격으로도 <tag=FlameSword>이 발동됨"
+  },
+  {
+   "id": "FLAME_SWORD_CRITICAL",
+   "en": "Critical Chance of <tag=FlameSword>",
+   "ko": "<tag=FlameSword> 치명타 확률"
+  },
+  {
+   "id": "FLAME_SWORD_DAMAGE",
+   "en": "<tag=FlameSword> Damage",
+   "ko": "<tag=FlameSword> 피해량"
+  },
+  {
+   "id": "FLAME_SWORD_IGNORE_DEFENSE",
+   "en": "Ignore target's defense by {VALUE} with <tag=FlameSword>",
+   "ko": "<tag=FlameSword>이 대상의 방어력을 {VALUE} 무시"
+  },
+  {
+   "id": "FLAME_SWORD_LUCK",
+   "en": "<tag=FlameSword> has a {VALUE} chance to grow in size and increase damage by <tag=CONST:flameSwordLuckBonusDamagePercent>% when thrown",
+   "ko": "<tag=FlameSword> 투척 시 {VALUE} 확률로 크기가 커지고 피해량이 <tag=CONST:flameSwordLuckBonusDamagePercent>% 증가"
+  },
+  {
+   "id": "FLAME_SWORD_MAGIC_DAMAGE",
+   "en": "Each 1% of <tag=MagicDamageBonus> increases <tag=FlameSword> damage by 1%",
+   "ko": "<tag=MagicDamageBonus> 1%당 <tag=FlameSword> 피해량 1% 증가"
+  },
+  {
+   "id": "FLAME_SWORD_MAX",
+   "en": "<tag=FlameSword> Maximum Count",
+   "ko": "<tag=FlameSword> 개수 상한"
+  },
+  {
+   "id": "FLAME_SWORD_PICK_BONUS",
+   "en": "Recover an additional {VALUE} when retrieving <tag=FlameSword>",
+   "ko": "<tag=FlameSword> 회수 시 {VALUE}개가 추가로 회수"
+  },
+  {
+   "id": "FOLLOWER_ATTACK_SPEED",
+   "en": "Companion Attack Speed",
+   "ko": "동료의 공격 속도"
+  },
+  {
+   "id": "FOLLOWER_CRITICAL",
+   "en": "Companion Critical Chance",
+   "ko": "동료 공격 시 치명타 확률"
+  },
+  {
+   "id": "FOLLOWER_DAMAGE",
+   "en": "Companion Damage",
+   "ko": "동료가 입히는 피해량"
+  },
+  {
+   "id": "FOLLOWER_DEFENSE",
+   "en": "Companion Defense",
+   "ko": "동료들의 방어력"
+  },
+  {
+   "id": "FOLLOWER_REVIVE",
+   "en": "Companion Revive Time Haste",
+   "ko": "동료 부활 시간 가속"
+  },
+  {
+   "id": "FREEZE_CLOUD",
+   "en": "Recover {VALUE} <tag=DarkCloud> when <tag=Freeze> activates",
+   "ko": "<tag=Freeze> 발동 시 <tag=DarkCloud> {VALUE} 회복"
+  },
+  {
+   "id": "FREEZE_DAMAGE",
+   "en": "<tag=Freeze> Debuff Damage",
+   "ko": "<tag=Freeze> 디버프 피해량"
+  },
+  {
+   "id": "FREEZE_THRESHOLD",
+   "en": "Number of <tag=Frostbite> <tag=Stacks> required for <tag=Freeze> {VALUE}",
+   "ko": "<tag=Freeze>에 필요한 <tag=Frostbite> <tag=Stacks> 수 {VALUE}"
+  },
+  {
+   "id": "FREE_ITEM_REROLL",
+   "en": "Free Item Reward Reroll",
+   "ko": "아이템 보상 무료 리롤"
+  },
+  {
+   "id": "FROSTBITE_DAMAGE",
+   "en": "Targets affected by <tag=Frostbite> take <tag=IceDamage> damage per second equal to {VALUE}% (damage increases with <tag=Stacks>)",
+   "ko": "<tag=Frostbite>에 걸린 대상은 초당 <tag=IceDamage>의 {VALUE}%만큼 피해 (<tag=Stacks>에 따라 피해량 증가)"
+  },
+  {
+   "id": "FROST_RELIC_DAMAGE",
+   "en": "<tag=FrostRelic> damage",
+   "ko": "<tag=FrostRelic>의 피해량"
+  },
+  {
+   "id": "FROST_RELIC_MP_DAMAGE",
+   "en": "Consumes {FROST_MP} <tag=MP> when <tag=FrostRelic> activates, increasing damage by {VALUE}",
+   "ko": "<tag=FrostRelic> 발동 시 <tag=MP>를 {FROST_MP} 소모하고 피해량이 {VALUE} 증가"
+  },
+  {
+   "id": "FROST_RELIC_MP_MAXMP_DAMAGE",
+   "en": "When <tag=FrostRelic> activates, consume {FROST_MP} <tag=MP> and increase damage by the amount of increased <tag=MaxMP>",
+   "ko": "<tag=FrostRelic> 발동 시 <tag=MP>를 {FROST_MP} 소모하고 증가된 <tag=MaxMP> 수치만큼 피해량 증가"
+  },
+  {
+   "id": "FRUIT_COUNT",
+   "en": "Fruit Skewer Max",
+   "ko": "과일 꼬치 상한"
+  },
+  {
+   "id": "FURY_INVINCIBLE_TIME",
+   "en": "Invincibility Duration During <tag=WeaponAction_Fury>",
+   "ko": "<tag=WeaponAction_Fury> 시 무적 시간"
+  },
+  {
+   "id": "GIVE_UP_REWARD_DICE",
+   "en": "Acquire dice when forfeiting item rewards",
+   "ko": "아이템 보상 포기 시 주사위 획득"
+  },
+  {
+   "id": "GOLD_HAND",
+   "en": "<tag=GoldHand_JustName>: Damage to enemies {VALUE} per <tag=CONST:goldHandLeaf> <tag=Leaf> owned (up to <tag=CONST:goldHandMax>%)",
+   "ko": "<tag=GoldHand_JustName>: 소지한 <tag=Leaf> <tag=CONST:goldHandLeaf>개당 적에게 주는 피해 {VALUE} (최대 <tag=CONST:goldHandMax>%)"
+  },
+  {
+   "id": "GOLD_HAND_UNLIMIT",
+   "en": "<tag=GoldHand_JustName> Effect Unlocked",
+   "ko": "<tag=GoldHand_JustName> 효과 제한 해제"
+  },
+  {
+   "id": "HEALING_PENALTY",
+   "en": "Healing Curse: Healing received decreases by {VALUE}",
+   "ko": "치유 저주: 받는 회복량이 {VALUE} 감소"
+  },
+  {
+   "id": "HIGHEST_ELEMENTAL_DAMAGE",
+   "en": "Highest Elemental Damage",
+   "ko": "가장 높은 속성 피해"
+  },
+  {
+   "id": "HPREGEN",
+   "en": "HP Regeneration",
+   "ko": "HP 재생"
+  },
+  {
+   "id": "HP_CURSE",
+   "en": "Max HP set to {VALUE}",
+   "ko": "최대 HP가 {VALUE}(으)로 고정됨"
+  },
+  {
+   "id": "HP_POTION_BONUS",
+   "en": "HP Potion Bonus",
+   "ko": "HP 포션 효과"
+  },
+  {
+   "id": "HP_REGEN",
+   "en": "HP Regeneration",
+   "ko": "HP 재생"
+  },
+  {
+   "id": "HP_STEAL",
+   "en": "Life Steal",
+   "ko": "HP 흡수"
+  },
+  {
+   "id": "ICE_DAMAGE",
+   "en": "Cold Damage",
+   "ko": "얼음속성 피해"
+  },
+  {
+   "id": "ICE_DAMAGE_AMP",
+   "en": "<tag=IceDamage> Amplification",
+   "ko": "<tag=IceDamage> 증폭"
+  },
+  {
+   "id": "ICE_DEFENSE",
+   "en": "<tag=Elemental_Ice> Resistance",
+   "ko": "<tag=Elemental_Ice> 피해 저항"
+  },
+  {
+   "id": "IGNORE_DEFENSE",
+   "en": "Ignore Defense",
+   "ko": "방어 관통"
+  },
+  {
+   "id": "IGNORE_EVASION",
+   "en": "Ignore <tag=Evasion>",
+   "ko": "<tag=Evasion> 관통"
+  },
+  {
+   "id": "IGNORE_SUPER_ARMOR",
+   "en": "Extra damage to target’s <tag=SuperArmor>",
+   "ko": "대상의 <tag=SuperArmor>에 추가 피해"
+  },
+  {
+   "id": "INFINITY_DASH",
+   "en": "Infinity Dash",
+   "ko": "무한 대시"
+  },
+  {
+   "id": "INFINITY_MP",
+   "en": "Magic Reflow: <tag=MaxMP> is fixed at <tag=CONST:infinityMPMax>, and MP does not decrease",
+   "ko": "마력 환류 : <tag=MaxMP>가 <tag=CONST:infinityMPMax>으로 고정되고, 줄어들지 않음"
+  },
+  {
+   "id": "INVENTORY_SLOT",
+   "en": "Inventory Slot",
+   "ko": "인벤토리 슬롯"
+  },
+  {
+   "id": "LAST_BASIC_ATTACK_DAMAGE",
+   "en": "Last Combo Damage of Normal Attack",
+   "ko": "일반 공격의 마지막 연격 피해"
+  },
+  {
+   "id": "LEAF_DROP",
+   "en": "Leaf Drop",
+   "ko": "잎 드롭"
+  },
+  {
+   "id": "LEVEL_UP_HEAL",
+   "en": "HP Restored on Level Up",
+   "ko": "레벨업 시 HP 회복"
+  },
+  {
+   "id": "LEVEL_UP_INVENTORY_SLOT",
+   "en": "Inventory Slots Gained on Level Up",
+   "ko": "레벨업 시 추가 인벤토리"
+  },
+  {
+   "id": "LIGHTNING_DAMAGE",
+   "en": "Lightning Damage",
+   "ko": "번개속성 피해"
+  },
+  {
+   "id": "LIGHTNING_DAMAGE_AMP",
+   "en": "<tag=LightningDamage> Amplification",
+   "ko": "<tag=LightningDamage> 증폭"
+  },
+  {
+   "id": "LIGHTNING_DEFENSE",
+   "en": "<tag=Elemental_Lightning> Resistance",
+   "ko": "<tag=Elemental_Lightning> 피해 저항"
+  },
+  {
+   "id": "LUCK",
+   "en": "Luck",
+   "ko": "행운"
+  },
+  {
+   "id": "MAGIC_COST_REDUCE",
+   "en": "Reduce MP Cost of <tag=Magic:noicon>",
+   "ko": "<tag=Magic:noicon>의 소모 MP 감소"
+  },
+  {
+   "id": "MAGIC_CRITICAL_DAMAGE_RATE",
+   "en": "<tag=Magic> Critical Damage",
+   "ko": "<tag=Magic>의 치명타 피해"
+  },
+  {
+   "id": "MAGIC_DAMAGE_BONUS",
+   "en": "<tag=Magic_NoIcon> Damage",
+   "ko": "<tag=Magic_NoIcon> 피해량"
+  },
+  {
+   "id": "MAGIC_MP",
+   "en": "Increases damage by {VALUE} for every 10 MP consumed by <tag=Magic>",
+   "ko": "<tag=Magic>가 소모하는 MP 10당 주는 피해가 {VALUE} 증가"
+  },
+  {
+   "id": "MAGIC_QUICK_CAST",
+   "en": "Instantly cast all <tag=Magic> without action",
+   "ko": "모든 <tag=Magic>를 동작 없이 즉시 시전"
+  },
+  {
+   "id": "MAX_DICE",
+   "en": "Initial Number of Dice",
+   "ko": "시작 주사위 개수"
+  },
+  {
+   "id": "MAX_HP",
+   "en": "Max HP",
+   "ko": "최대 HP"
+  },
+  {
+   "id": "MAX_MP",
+   "en": "Max MP",
+   "ko": "최대 MP"
+  },
+  {
+   "id": "MIN_DARK_CLOUD",
+   "en": "<tag=DarkCloud> Capacity",
+   "ko": "<tag=DarkCloud> 용량"
+  },
+  {
+   "id": "MOVE_SPEED",
+   "en": "Move Speed",
+   "ko": "이동 속도"
+  },
+  {
+   "id": "MPREGEN",
+   "en": "MP Regeneration",
+   "ko": "MP 재생"
+  },
+  {
+   "id": "MPSHIELD",
+   "en": "MP Shield",
+   "ko": "MP 실드"
+  },
+  {
+   "id": "MP_POTION_BONUS",
+   "en": "MP Potion Bonus",
+   "ko": "MP 포션 효과"
+  },
+  {
+   "id": "MP_REGEN",
+   "en": "MP Regeneration",
+   "ko": "MP 재생"
+  },
+  {
+   "id": "MP_REGEN_KILL",
+   "en": "Recover <tag=MP> {VALUE} on Kill",
+   "ko": "적 처치 시 <tag=MP> {VALUE} 회복"
+  },
+  {
+   "id": "MP_REGEN_MULTIPLE",
+   "en": "Efficiency When Recovering <tag=MP>",
+   "ko": "<tag=MP> 회복 시의 효율"
+  },
+  {
+   "id": "MP_SHIELD",
+   "en": "MP Shield",
+   "ko": "MP 실드"
+  },
+  {
+   "id": "MP_SKILL_DAMAGE",
+   "en": "Damage of abilities consuming MP",
+   "ko": "MP를 소모하는 능력의 피해량"
+  },
+  {
+   "id": "MP_STEAL",
+   "en": "MP Steal",
+   "ko": "MP 흡수"
+  },
+  {
+   "id": "M_P",
+   "en": "MP",
+   "ko": "MP"
+  },
+  {
+   "id": "NEGOTIATION",
+   "en": "Barter",
+   "ko": "협상력"
+  },
+  {
+   "id": "NO_DASH_INVINCIBLE",
+   "en": "Disable Dash Invincibility",
+   "ko": "대시 무적 비활성화"
+  },
+  {
+   "id": "NO_MAGIC_COST",
+   "en": "Grimoires do not consume MP",
+   "ko": "마법서가 MP를 소모하지 않음"
+  },
+  {
+   "id": "PARTY_BUFF",
+   "en": "Grants buffs to players within 5 <tag=Tiles> when casting buffs. However, the spell cost is increased by 50%.",
+   "ko": "버프 마법 시전 시, 주변 5<tag=Tiles> 이내 플레이어에게도 버프 부여. 대신 버프 마법 시전 비용이 50% 증가"
+  },
+  {
+   "id": "PHYSICAL_DAMAGE",
+   "en": "Physical Damage",
+   "ko": "물리 피해"
+  },
+  {
+   "id": "PHYSICAL_DAMAGE_AMP",
+   "en": "<tag=PhysicalDamage> Amplification",
+   "ko": "<tag=PhysicalDamage> 증폭"
+  },
+  {
+   "id": "PHYSICAL_DEFENSE",
+   "en": "<tag=Elemental_Physical> Resistance",
+   "ko": "<tag=Elemental_Physical> 피해 저항"
+  },
+  {
+   "id": "PHYSICAL_TO_FIRE",
+   "en": "<tag=AdditionalPhysicalDamage> becomes 0, and that {VALUE} is converted to <tag=FireDamage>",
+   "ko": "<tag=AdditionalPhysicalDamage>가 0이 되고, 그 {VALUE}가 <tag=FireDamage>로 변환"
+  },
+  {
+   "id": "PHYSICAL_TO_ICE",
+   "en": "<tag=AdditionalPhysicalDamage> becomes 0, and that {VALUE} is converted to <tag=IceDamage>",
+   "ko": "<tag=AdditionalPhysicalDamage>가 0이 되고, 그 {VALUE}가 <tag=IceDamage>로 변환"
+  },
+  {
+   "id": "PHYSICAL_TO_LIGHTNING",
+   "en": "<tag=AdditionalPhysicalDamage> becomes 0, and that {VALUE} is converted to <tag=LightningDamage>",
+   "ko": "<tag=AdditionalPhysicalDamage>가 0이 되고, 그 {VALUE}가 <tag=LightningDamage>로 변환"
+  },
+  {
+   "id": "PLANET_ATTACK_SPEED",
+   "en": "Planet Attack Speed",
+   "ko": "행성 공격 속도"
+  },
+  {
+   "id": "PLANET_DAMAGE",
+   "en": "Planet Damage",
+   "ko": "행성 피해량"
+  },
+  {
+   "id": "PLASMA_ACTIVE",
+   "en": "<tag=Burn> and <tag=Electric> change to <tag=Plasma>",
+   "ko": "<tag=Burn>과 <tag=Electric>이 <tag=Plasma>로 변경"
+  },
+  {
+   "id": "PLASMA_DAMAGE",
+   "en": "<tag=Plasma> Damage",
+   "ko": "<tag=Plasma> 피해량"
+  },
+  {
+   "id": "POTION_SLOT",
+   "en": "Potion Bag Slot",
+   "ko": "포션 가방 슬롯"
+  },
+  {
+   "id": "REVIVE_PLAYER_HASTE",
+   "en": "Reduces the time to revive another player by {VALUE}",
+   "ko": "다른 플레이어를 살릴 때의 시간 {VALUE} 단축"
+  },
+  {
+   "id": "SAPPHIREBONUS",
+   "en": "Sapphire Acquisition Bonus",
+   "ko": "사파이어 획득 보너스"
+  },
+  {
+   "id": "SPECIAL_ATTACK_COST_REDUCTION",
+   "en": "Reduce <tag=MP> Cost of <tag=WeaponAction_SpecialAttack>",
+   "ko": "<tag=WeaponAction_SpecialAttack> 소모 <tag=MP> 감소"
+  },
+  {
+   "id": "SPECIAL_ATTACK_DAMAGE",
+   "en": "Special Attack Damage",
+   "ko": "특수 공격 피해"
+  },
+  {
+   "id": "STARTING_MONEY",
+   "en": "Start with {VALUE} <tag=Leaf:nocolor>",
+   "ko": "탐험 시작 시 {VALUE} <tag=Leaf:nocolor>"
+  },
+  {
+   "id": "SUB_BAG_SLOT",
+   "en": "Side Bag Slot",
+   "ko": "보조 가방 슬롯"
+  },
+  {
+   "id": "SUPERARMOR",
+   "en": "Super Armor",
+   "ko": "슈퍼 아머"
+  },
+  {
+   "id": "SUPERPLANET",
+   "en": "Each <tag=WeaponAction_DirectAttack> speeds up the attack cycle of planets",
+   "ko": "<tag=WeaponAction_DirectAttack> 할 때마다 행성 공격 주기가 빨라짐"
+  },
+  {
+   "id": "SWEEP_COST_REDUCTION",
+   "en": "Cleave MP Cost",
+   "ko": "휩쓸기 MP 소모"
+  },
+  {
+   "id": "THORNS",
+   "en": "Thorns",
+   "ko": "가시"
+  },
+  {
+   "id": "TOUGHNESS",
+   "en": "Toughness",
+   "ko": "강인함"
+  },
+  {
+   "id": "TRUE_DAMAGE",
+   "en": "True Damage",
+   "ko": "고정 피해"
+  },
+  {
+   "id": "WEAPON_RANGE",
+   "en": "Melee Attack Range",
+   "ko": "근접 공격 범위"
+  }
+ ],
+ "categories": [
+  {
+   "id": "ACADEMY",
+   "name": "Academy",
+   "en": "Academy",
+   "ko": "아카데미"
+  },
+  {
+   "id": "ALCHEMY",
+   "name": "Alchemy",
+   "en": "Alchemy",
+   "ko": "연금술"
+  },
+  {
+   "id": "CHARGING",
+   "name": "Charging",
+   "en": "Charging",
+   "ko": "충전형"
+  },
+  {
+   "id": "COMPANION",
+   "name": "Companion",
+   "en": "Companion",
+   "ko": "동료"
+  },
+  {
+   "id": "CURSE",
+   "name": "Curse",
+   "en": "Curse",
+   "ko": "저주"
+  },
+  {
+   "id": "DARKCLOUD",
+   "name": "DarkCloud",
+   "en": "Storm Cloud",
+   "ko": "먹구름"
+  },
+  {
+   "id": "DUALCHARM",
+   "name": "DualCharm",
+   "en": "Bond",
+   "ko": "결속"
+  },
+  {
+   "id": "ELEMENTAL",
+   "name": "Elemental",
+   "en": "Elemental",
+   "ko": "원소"
+  },
+  {
+   "id": "EMBER",
+   "name": "Ember",
+   "en": "Ember",
+   "ko": "잉걸불"
+  },
+  {
+   "id": "FAVORITES",
+   "name": "Favorites",
+   "en": "Favorites",
+   "ko": "즐겨찾기"
+  },
+  {
+   "id": "FLAMESWORD",
+   "name": "FlameSword",
+   "en": "Solar Blade",
+   "ko": "태양검"
+  },
+  {
+   "id": "FROST",
+   "name": "Frost",
+   "en": "Frost Relic",
+   "ko": "얼음무구"
+  },
+  {
+   "id": "GLACIER",
+   "name": "Glacier",
+   "en": "Glacier",
+   "ko": "빙하"
+  },
+  {
+   "id": "GRIMOIRE",
+   "name": "Grimoire",
+   "en": "Grimoire",
+   "ko": "마법서"
+  },
+  {
+   "id": "GUARDIAN",
+   "name": "Guardian",
+   "en": "Guardian",
+   "ko": "수호"
+  },
+  {
+   "id": "LAKE",
+   "name": "Lake",
+   "en": "Lake",
+   "ko": "호수"
+  },
+  {
+   "id": "MAGITECH",
+   "name": "Magitech",
+   "en": "Magitech",
+   "ko": "마법공학"
+  },
+  {
+   "id": "MYSTIC",
+   "name": "Mystic",
+   "en": "Mystic",
+   "ko": "신비"
+  },
+  {
+   "id": "NONE",
+   "name": "None",
+   "en": "None",
+   "ko": "없음"
+  },
+  {
+   "id": "PARTY",
+   "name": "Party",
+   "en": "Party",
+   "ko": "파티"
+  },
+  {
+   "id": "PLANET",
+   "name": "Planet",
+   "en": "Planet",
+   "ko": "행성"
+  },
+  {
+   "id": "PRECISION",
+   "name": "Precision",
+   "en": "Precision",
+   "ko": "정밀"
+  },
+  {
+   "id": "SAVVY",
+   "name": "Savvy",
+   "en": "Negotiation",
+   "ko": "교섭"
+  },
+  {
+   "id": "SHADOW",
+   "name": "Shadow",
+   "en": "Shadow",
+   "ko": "그림자"
+  },
+  {
+   "id": "STURDY",
+   "name": "Sturdy",
+   "en": "Sturdy",
+   "ko": "견고"
+  },
+  {
+   "id": "WEAPON",
+   "name": "Weapon",
+   "en": "Forge",
+   "ko": "대장간"
+  },
+  {
+   "id": "WINDSONG",
+   "name": "WindSong",
+   "en": "Wind Song",
+   "ko": "바람노래"
+  }
+ ],
+ "keywords": [
+  {
+   "tag": "Buffs",
+   "en": "Buffs",
+   "ko": "버프"
+  },
+  {
+   "tag": "Debuffs",
+   "en": "Debuffs",
+   "ko": "디버프"
+  },
+  {
+   "tag": "ReservedMP",
+   "en": "Reserve",
+   "ko": "점유"
+  },
+  {
+   "tag": "Sapphire",
+   "en": "Sapphire",
+   "ko": "사파이어"
+  },
+  {
+   "tag": "Sapphires",
+   "en": "Sapphires",
+   "ko": "사파이어"
+  },
+  {
+   "tag": "Slot",
+   "en": "slot",
+   "ko": "칸"
+  },
+  {
+   "tag": "Slots",
+   "en": "slots",
+   "ko": "칸"
+  },
+  {
+   "tag": "Stack",
+   "en": "stack",
+   "ko": "중첩"
+  },
+  {
+   "tag": "Stacks",
+   "en": "stacks",
+   "ko": "중첩"
+  },
+  {
+   "tag": "Tile",
+   "en": "Tile",
+   "ko": "타일"
+  },
+  {
+   "tag": "Tiles",
+   "en": "tiles",
+   "ko": "타일"
+  }
+ ]
+}
