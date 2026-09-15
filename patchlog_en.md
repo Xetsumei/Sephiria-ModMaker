@@ -1,5 +1,15 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.18 — 2026-09-16
+
+- Fixed item tooltips showing **another artifact's description**. A single stat name the game does not know kept the tooltip from refreshing at all; now only that one stat line is skipped.
+- **Merchant stock, merchant legendary stock, merchant money, potion drink speed and miniboss reward dice** are now supported by ModMaker itself, so they work without any additional add-on.
+- These stats ship with names and descriptions, and their **tooltip line writes itself** (for example, "Merchants in a new area stock 2 more artifacts") — no effect text needed.
+- Stats registered by other add-ons are hidden from the stat list, because they do nothing for players who do not have that add-on. Mods already built with such a stat still save normally. (Run the game once to refresh the reference dump.)
+- List rows now render color and bold tags in names **as they look**, instead of printing the tags as text.
+- Updated the distribution files.
+
+
 ## 2.5.17 — 2026-09-16
 
 - README and patch notes are available in the GitHub repository and are not included in release ZIPs.
