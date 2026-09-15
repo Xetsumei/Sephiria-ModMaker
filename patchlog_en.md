@@ -1,5 +1,11 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.14 — 2026-09-16
+
+- Item effect descriptions can include values for each level, with a preview.
+- Updated the distribution files.
+
+
 ## 2.5.13 — 2026-09-15
 
 - Updated the included documentation.
