@@ -1,5 +1,10 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.16 — 2026-09-16
+
+- Updated the distribution files.
+
+
 ## 2.5.15 — 2026-09-16
 
 - Updated the distribution files.
