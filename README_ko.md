@@ -1,5 +1,9 @@
 ﻿# Sephiria ModMaker
 
+- README와 업데이트 기록은 GitHub 저장소에서 확인할 수 있습니다. Release ZIP에는 포함하지 않습니다.
+- 편집기를 실행할 때마다 새 판을 확인합니다. 새 판이 있으면 업데이트 창이 열리며, 나중에 하려면 창을 닫고 상단 알림줄에서 다시 선택할 수 있습니다. 자동 확인을 끄거나 해당 판을 건너뛰면 자동 창은 표시하지 않습니다.
+
+
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 ## 라이선스

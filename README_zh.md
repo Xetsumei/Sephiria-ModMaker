@@ -1,5 +1,9 @@
 ﻿# Sephiria ModMaker
 
+- README和更新记录可在GitHub仓库查看，不包含在Release ZIP中。
+- 每次启动编辑器都会检查更新。发现新版本后会打开更新窗口；关闭后仍可通过顶部提示稍后更新。关闭自动检查或跳过该版本后不会自动弹窗。
+
+
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 ## 2.5.12 — 2026-09-15

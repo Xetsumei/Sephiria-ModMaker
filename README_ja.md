@@ -1,5 +1,9 @@
 ﻿# Sephiria ModMaker
 
+- READMEと更新履歴はGitHubリポジトリで確認できます。ReleaseのZIPには含まれません。
+- 起動するたびに更新を確認します。新しいバージョンがあると更新画面が開き、閉じても上部の通知から後で更新できます。自動確認が無効の場合やスキップしたバージョンでは自動画面を表示しません。
+
+
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 ## 2.5.12 — 2026-09-15

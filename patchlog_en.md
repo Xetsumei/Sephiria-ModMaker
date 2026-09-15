@@ -1,5 +1,13 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.17 — 2026-09-16
+
+- README and patch notes are available in the GitHub repository and are not included in release ZIPs.
+- The editor checks for updates on every launch. A new version opens an update dialog; dismiss it to update later from the banner. Automatic dialogs respect disabled checks and skipped versions.
+
+- Updated the distribution files.
+
+
 ## 2.5.16 — 2026-09-16
 
 - Updated the distribution files.

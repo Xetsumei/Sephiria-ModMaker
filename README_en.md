@@ -1,5 +1,9 @@
 ﻿# Sephiria ModMaker
 
+- README and patch notes are available in the GitHub repository and are not included in release ZIPs.
+- The editor checks for updates on every launch. A new version opens an update dialog; dismiss it to update later from the banner. Automatic dialogs respect disabled checks and skipped versions.
+
+
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
 ## 2.5.12 — 2026-09-15
