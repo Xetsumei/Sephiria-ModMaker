@@ -1,5 +1,11 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.19 — 2026-09-16
+
+- Fixed ModMaker-provided stats (merchant stock, merchant legendary stock, merchant money, potion drink speed, miniboss reward dice, and the existing size stats) showing in game only as **"(unknown stat)"** in 2.5.18. The stats were re-registered in the wrong order and dropped out of the game's stat table.
+- Updated the distribution files.
+
+
 ## 2.5.18 — 2026-09-16
 
 - Fixed item tooltips showing **another artifact's description**. A single stat name the game does not know kept the tooltip from refreshing at all; now only that one stat line is skipped.
