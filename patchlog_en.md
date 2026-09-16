@@ -1,5 +1,10 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.21 — 2026-09-16
+
+- Updated the distribution files.
+
+
 ## 2.5.20 — 2026-09-16
 
 - Fixed **trigger effects on active artifacts never running**. The editor let you author them, but the game dropped them entirely. Active artifacts now handle triggers exactly like normal ones.
