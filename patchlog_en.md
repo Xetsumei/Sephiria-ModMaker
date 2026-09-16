@@ -1,5 +1,11 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.20 — 2026-09-16
+
+- Fixed **trigger effects on active artifacts never running**. The editor let you author them, but the game dropped them entirely. Active artifacts now handle triggers exactly like normal ones.
+- Updated the distribution files.
+
+
 ## 2.5.19 — 2026-09-16
 
 - Fixed ModMaker-provided stats (merchant stock, merchant legendary stock, merchant money, potion drink speed, miniboss reward dice, and the existing size stats) showing in game only as **"(unknown stat)"** in 2.5.18. The stats were re-registered in the wrong order and dropped out of the game's stat table.
