@@ -1,5 +1,15 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.24 — 2026-09-17
+
+- Redesigned the **Asset library** window. It now opens as a thumbnail grid and can switch to a list view. Added per-type result counts, sorting, thumbnail size, zoom and background options, and shortcuts to other animations of the same subject. Scrolling stays smooth even with a very large library.
+- Added **save backups and autosave**. Each save keeps the previous `mod.json` in the mod folder's `.modmaker-backups` (10 copies by default), and the editor now asks before the first save overwrites a folder that already contains a mod. Autosave can be toggled and its interval changed in Settings (10 minutes by default). Open backups from **Save backups** in the Tools menu.
+- Fixed values oscillating endlessly when stat conversion fixed elemental damage or moved it to another element, interacting with the **Highest elemental damage** bonus.
+- Fixed artifacts with an **on first pickup** effect still appearing unused after the effect had fired.
+- Stats that potions grant without a duration are now applied the same way as vanilla potions. Fixed them disappearing after continuing a save or carrying over into the next run.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.24 too. Mods saved with this version require runtime 2.5.24 or later.
+
 ## 2.5.23 — 2026-09-17
 
 - Choose which individual constant stats to share with your party. Shared rows receive a **Stat sharing** label in the game tooltip.

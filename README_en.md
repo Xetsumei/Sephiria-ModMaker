@@ -1,4 +1,4 @@
-# Sephiria ModMaker
+﻿# Sephiria ModMaker
 
 For manual installation, download **only SephiriaModMaker-version.zip** from the release. **You do not need to download update.json or put it in the installation folder.** The updater reads it to check the version and verify the download. Using the update command in the editor also handles the ZIP download for you.
 
@@ -7,14 +7,15 @@ For manual installation, download **only SephiriaModMaker-version.zip** from the
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
-## 2.5.23 — 2026-09-17
+## 2.5.24 — 2026-09-17
 
-- Choose which individual constant stats to share with your party. Shared rows receive a **Stat sharing** label in the game tooltip.
-- Stat conversion and reservation now support maximum HP, maximum MP and related values, also available to activation criteria and damage formulas. Fixed several stats, including defense, critical damage and elemental amplification, being read as zero.
-- Corrected usage-count tooltips for limited-use artifacts after dropping or selling them.
-- Fixed **buff lost** effects being skipped when a buff linked to an item is removed as that item is lost. Applies to both normal and active artifacts.
+- Redesigned the **Asset library** window. It now opens as a thumbnail grid and can switch to a list view. Added per-type result counts, sorting, thumbnail size, zoom and background options, and shortcuts to other animations of the same subject. Scrolling stays smooth even with a very large library.
+- Added **save backups and autosave**. Each save keeps the previous `mod.json` in the mod folder's `.modmaker-backups` (10 copies by default), and the editor now asks before the first save overwrites a folder that already contains a mod. Autosave can be toggled and its interval changed in Settings (10 minutes by default). Open backups from **Save backups** in the Tools menu.
+- Fixed values oscillating endlessly when stat conversion fixed elemental damage or moved it to another element, interacting with the **Highest elemental damage** bonus.
+- Fixed artifacts with an **on first pickup** effect still appearing unused after the effect had fired.
+- Stats that potions grant without a duration are now applied the same way as vanilla potions. Fixed them disappearing after continuing a save or carrying over into the next run.
 
-After updating the editor, use **Install to game** to update the bundled runtime to 2.5.23 too. Mods saved with this version require runtime 2.5.23 or later.
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.24 too. Mods saved with this version require runtime 2.5.24 or later.
 
 Full update history: [한국어](patchlog_ko.md) · [English](patchlog_en.md) · [日本語](patchlog_jp.md) · [中文](patchlog_zh.md)
 
@@ -49,7 +50,7 @@ The editor UI is available in Korean / Japanese / English / Chinese.
 
 Check your work in the order `Save → Validate → Install to game`. The game itself is started from `Launch game` in the `Tools` menu or with `F5`. Files for other players are built with `Create package`. Draft storage, draft recovery and the example startup menu have been removed.
 
-Artifact copy limits, stat inputs in the game's own display units, and inventory inversion labels have been added. Stat values in an existing `mod.json` are preserved as they are. Undo, fixed content IDs and save and install backups all continue to work. Projects saved in this version require runtime 2.5.23.
+Artifact copy limits, stat inputs in the game's own display units, and inventory inversion labels have been added. Stat values in an existing `mod.json` are preserved as they are. Undo, fixed content IDs and save and install backups all continue to work. Projects saved in this version require runtime 2.5.24.
 
 ---
 
@@ -441,7 +442,7 @@ Open Player.log in the Tools menu opens that folder with the file selected.
 A healthy load looks like this.
 
 ```
-[AddOnLoader] ✓ 'ModMaker Runtime' v2.5.23 by ModMaker
+[AddOnLoader] ✓ 'ModMaker Runtime' v2.5.24 by ModMaker
 [ModMakerRuntime] Mod found: My Mod v1.0.0 (3 items, 0 patches)
 ```
 
