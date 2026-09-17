@@ -1,5 +1,13 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.25 — 2026-09-17
+
+- The **Player size** and **Ranged projectile size** stats now apply wherever a stat can be granted, not only from artifacts: miracles, combos, talents, buffs, weapons, effects, party sharing and vanilla artifact patches. Stat amplification applies to them like any other stat.
+- Checked that Ranged projectile size reaches every projectile fired by weapons, magic and artifacts. When a size is actually applied, a `크기 스탯 적용` (size stat applied) line is written to `Player.log` so it can be confirmed.
+- Fixed the character's facing direction possibly flipping at the moment Player size changed.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.25 too. Mods saved with this version require runtime 2.5.25 or later.
+
 ## 2.5.24 — 2026-09-17
 
 - Redesigned the **Asset library** window. It now opens as a thumbnail grid and can switch to a list view. Added per-type result counts, sorting, thumbnail size, zoom and background options, and shortcuts to other animations of the same subject. Scrolling stays smooth even with a very large library.
