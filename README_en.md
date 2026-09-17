@@ -7,9 +7,26 @@ For manual installation, download **only SephiriaModMaker-version.zip** from the
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
-## 2.5.12 — 2026-09-15
+## 2.5.23 — 2026-09-17
 
-- Release update history is available in the `patchlog` files.
+- Choose which individual constant stats to share with your party. Shared rows receive a **Stat sharing** label in the game tooltip.
+- Stat conversion and reservation now support maximum HP, maximum MP and related values, also available to activation criteria and damage formulas. Fixed several stats, including defense, critical damage and elemental amplification, being read as zero.
+- Corrected usage-count tooltips for limited-use artifacts after dropping or selling them.
+- Fixed **buff lost** effects being skipped when a buff linked to an item is removed as that item is lost. Applies to both normal and active artifacts.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.23 too. Mods saved with this version require runtime 2.5.23 or later.
+
+Full update history: [한국어](patchlog_ko.md) · [English](patchlog_en.md) · [日本語](patchlog_jp.md) · [中文](patchlog_zh.md)
+
+## Using the asset library
+
+Open the asset library in the vanilla browser and read the game assets. The first scan takes time and does not require launching the game. Search by name, type or source file, and preview images, frame animations and sounds.
+
+Save your mod, then use the image or animation browse button to import into `Assets/Library`. Keep the `.sprite.json` beside each PNG to preserve its pivot and in-game scale. The file picker still accepts PNG, GIF and frame folders. Sounds are stored as game event references, not extracted as WAV files. Importing an animation does not copy attack logic, events or AI.
+
+## Sharing individual stats
+
+Enable **Party share** on each constant-stat row you want to share. **Share all effects with your party** overrides the individual selections without erasing them. Shared stats are marked at the end of their game tooltip rows.
 
 ## 2.5.11
 
@@ -28,11 +45,11 @@ Installing to the game and building a package for other players are both one but
 
 The editor UI is available in Korean / Japanese / English / Chinese.
 
-## The 2.3 Workflow
+## Workflow
 
 Check your work in the order `Save → Validate → Install to game`. The game itself is started from `Launch game` in the `Tools` menu or with `F5`. Files for other players are built with `Create package`. Draft storage, draft recovery and the example startup menu have been removed.
 
-Artifact copy limits, stat inputs in the game's own display units, and inventory inversion labels have been added. Stat values in an existing `mod.json` are preserved as they are. Undo, fixed content IDs and save and install backups all continue to work. Projects saved in this version require runtime 2.3.0.
+Artifact copy limits, stat inputs in the game's own display units, and inventory inversion labels have been added. Stat values in an existing `mod.json` are preserved as they are. Undo, fixed content IDs and save and install backups all continue to work. Projects saved in this version require runtime 2.5.23.
 
 ---
 
@@ -95,7 +112,7 @@ Set it back to `false` before sharing. `Create package` turns it off automatical
 
 \* Marked entries are still in development. They may not work as expected, so use them with care. Opening one of those tabs shows the same notice at the top of the editor.
 
-Everything works by cloning existing assets and changing sprites, numbers and text. **Anything that needs new animation, such as a new motion or a new spell behavior, cannot be made.**
+Images and frame animations can be imported or replaced. New attack logic, AI and spell behavior are limited to what each form supports; other behavior requires scripts.
 For behavior the forms cannot express, write a [custom script](#custom-c-scripts).
 
 ---
@@ -424,7 +441,7 @@ Open Player.log in the Tools menu opens that folder with the file selected.
 A healthy load looks like this.
 
 ```
-[AddOnLoader] ✓ 'ModMaker Runtime' v2.3.0 by ModMaker
+[AddOnLoader] ✓ 'ModMaker Runtime' v2.5.23 by ModMaker
 [ModMakerRuntime] Mod found: My Mod v1.0.0 (3 items, 0 patches)
 ```
 
@@ -465,7 +482,7 @@ Your work is kept and you can continue. Details are written to `%TEMP%\modmaker_
 
 ## Limitations
 
-* New motions and new spell behaviors cannot be made. Everything is cloning an existing asset and changing sprites and numbers.
+* Images and frame animations can be imported or replaced. New attack logic, AI and spell behavior are limited to what each form supports; other behavior requires scripts.
 * Weapon hit counts cannot be changed. The motion decides how many times you swing.
 * Crossbows can only upgrade from crossbows, and cannot upgrade into non-crossbow weapons.
 * The weapon tab's lists and the Vanilla Reference need one game launch to fill in.

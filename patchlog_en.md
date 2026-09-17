@@ -1,5 +1,25 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.23 — 2026-09-17
+
+- Choose which individual constant stats to share with your party. Shared rows receive a **Stat sharing** label in the game tooltip.
+- Stat conversion and reservation now support maximum HP, maximum MP and related values, also available to activation criteria and damage formulas. Fixed several stats, including defense, critical damage and elemental amplification, being read as zero.
+- Corrected usage-count tooltips for limited-use artifacts after dropping or selling them.
+- Fixed **buff lost** effects being skipped when a buff linked to an item is removed as that item is lost. Applies to both normal and active artifacts.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.23 too. Mods saved with this version require runtime 2.5.23 or later.
+
+## 2.5.22 — 2026-09-16
+
+- Added an **asset library** to the vanilla browser. Read images, frame animations and original animation data from the installed game without launching it, then search, preview and import them.
+- Image and animation browse buttons also open the library. Imports preserve image pivots, in-game scale, animation FPS and looping information.
+- Search and preview sound effects and BGM, then select them for weapon attack sounds. The extraction tool is bundled; no separate Python installation is needed.
+
+## 2.5.21 — 2026-09-16
+
+- Updated the distribution files.
+
+
 ## 2.5.20 — 2026-09-16
 
 - Fixed **trigger effects on active artifacts never running**. The editor let you author them, but the game dropped them entirely. Active artifacts now handle triggers exactly like normal ones.

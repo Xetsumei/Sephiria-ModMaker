@@ -1,6 +1,8 @@
 # Distribution files only. Source and internal notes stay local.
 *
 !/.gitignore
+!/AssetLibraryExtractor.exe
+!/AssetLibrary-LICENSES.txt
 !/build-manifest.json
 !/docs/
 !/docs/사용안내.md

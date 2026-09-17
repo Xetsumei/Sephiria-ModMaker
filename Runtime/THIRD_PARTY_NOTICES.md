@@ -3,6 +3,12 @@
 Sephiria ModMaker redistributes the following third-party software. These
 notices apply to the third-party components only.
 
+The optional asset library extraction worker redistributes Python, UnityPy,
+TypeTreeGeneratorAPI and their dependencies. Full dependency versions and license
+texts are provided in the accompanying `AssetLibrary-LICENSES.txt`. Game assets
+and the game's FMOD runtime are read from the user's installation and are not
+included in this distribution.
+
 ## Harmony
 
 Source: https://github.com/pardeike/Harmony
