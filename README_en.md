@@ -7,6 +7,13 @@ For manual installation, download **only SephiriaModMaker-version.zip** from the
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
+## 2.5.29 — 2026-09-18
+
+- Fixed the **Upgrade an item** effect action raising only the enchant count without actually raising the item's level. This covers every case where the upgrade seemed not to trigger, such as an item upgrading itself on `Once on first acquisition`.
+- Fixed items with `Disable wishing fountain` checked being taken into a run through the game's **presets** (applying, pasting, or editing the list in the preset window). They no longer appear in the preset window's list editor, and are not given at run start even if an already saved preset contains them.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.29 too. Mods saved with this version require runtime 2.5.29 or later.
+
 ## 2.5.28 — 2026-09-18
 
 - The 23 stats the game reads **as on/off only** (`ABSOLUTE_EVASION`, `MP_SHIELD`, `INFINITY_MP`, `INFINITY_DASH` and others) now accept **0 (off) or 1 (on) only**. The game never looks at their size, so 2 and 5 both simply mean on. The `Input unit` column shows `On 1 / Off 0`, and values by level such as `0,0,1` still let a stat **switch on from a given level**.
