@@ -1,5 +1,17 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.28 — 2026-09-18
+
+- The 23 stats the game reads **as on/off only** (`ABSOLUTE_EVASION`, `MP_SHIELD`, `INFINITY_MP`, `INFINITY_DASH` and others) now accept **0 (off) or 1 (on) only**. The game never looks at their size, so 2 and 5 both simply mean on. The `Input unit` column shows `On 1 / Off 0`, and values by level such as `0,0,1` still let a stat **switch on from a given level**.
+- If an older `mod.json` has 2 or more in such a stat, the game clamps it to on (1) when loading and writes which mod and which stat to `Player.log`. Anything above 0 is on in the game, so behaviour does not change.
+- Removed the stray `%` from the input unit of `EVASION_DISABLE` and `GOLD_HAND`.
+
+## 2.5.27 — 2026-09-18
+
+- Item descriptions with a use limit now show the **actual remaining uses**. A `(1 use)` produced by `First acquisition` becomes `(0 uses)` after use, and each item counts separately in the bag, on the floor and in sell lists. An open description updates right away.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.28 too. Mods saved with this version require runtime 2.5.28 or later.
+
 ## 2.5.26 — 2026-09-18
 
 - Added **Mod-wide features → Vanilla ban**. Right below `Mod info` in the left list, check vanilla items, weapons, costumes, miracles and talents to hide them from players while their data stays in the game. They are left out of rewards, shops, choices, the journal and selection screens; items already owned and saves are not broken.
