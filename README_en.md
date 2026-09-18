@@ -7,13 +7,14 @@ For manual installation, download **only SephiriaModMaker-version.zip** from the
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
-## 2.5.25 — 2026-09-17
+## 2.5.26 — 2026-09-18
 
-- The **Player size** and **Ranged projectile size** stats now apply wherever a stat can be granted, not only from artifacts: miracles, combos, talents, buffs, weapons, effects, party sharing and vanilla artifact patches. Stat amplification applies to them like any other stat.
-- Checked that Ranged projectile size reaches every projectile fired by weapons, magic and artifacts. When a size is actually applied, a `크기 스탯 적용` (size stat applied) line is written to `Player.log` so it can be confirmed.
-- Fixed the character's facing direction possibly flipping at the moment Player size changed.
+- Added **Mod-wide features → Vanilla ban**. Right below `Mod info` in the left list, check vanilla items, weapons, costumes, miracles and talents to hide them from players while their data stays in the game. They are left out of rewards, shops, choices, the journal and selection screens; items already owned and saves are not broken.
+- The **Upgrade an item** effect action now upgrades the item instead of its slot. It enchants the chosen item as many times as the value (a negative value removes enchantments), so the upgrade follows the item when it is moved. Like the game's enchanting, it only applies to artifacts and only up to their max level.
+- `Only show my room to players with the same mods` is now always on. The setting line in the `ModMaker Info` window was removed and `lockMultiplayer` in `config.json` is no longer read.
+- Fixed `Create patch from selected item` in the Vanilla Reference jumping to a tab other than Item Patch.
 
-After updating the editor, use **Install to game** to update the bundled runtime to 2.5.25 too. Mods saved with this version require runtime 2.5.25 or later.
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.26 too. Mods saved with this version require runtime 2.5.26 or later.
 
 Full update history: [한국어](patchlog_ko.md) · [English](patchlog_en.md) · [日本語](patchlog_jp.md) · [中文](patchlog_zh.md)
 
@@ -48,7 +49,7 @@ The editor UI is available in Korean / Japanese / English / Chinese.
 
 Check your work in the order `Save → Validate → Install to game`. The game itself is started from `Launch game` in the `Tools` menu or with `F5`. Files for other players are built with `Create package`. Draft storage, draft recovery and the example startup menu have been removed.
 
-Artifact copy limits, stat inputs in the game's own display units, and inventory inversion labels have been added. Stat values in an existing `mod.json` are preserved as they are. Undo, fixed content IDs and save and install backups all continue to work. Projects saved in this version require runtime 2.5.25.
+Artifact copy limits, stat inputs in the game's own display units, and inventory inversion labels have been added. Stat values in an existing `mod.json` are preserved as they are. Undo, fixed content IDs and save and install backups all continue to work. Projects saved in this version require runtime 2.5.26.
 
 ---
 
@@ -108,6 +109,7 @@ Set it back to `false` before sharing. `Create package` turns it off automatical
 | **Item Patch**\* | Price, rarity and stats of existing items, plus icon, name and flavor text |
 | **Combo Patch**\* | Rewrite the tier table of a vanilla combo |
 | **Costume Patch**\* | Stats and starting items of existing characters |
+| **Vanilla Ban**\* | Hide vanilla items, weapons, costumes, miracles and talents so players never meet them (mod-wide feature) |
 
 \* Marked entries are still in development. They may not work as expected, so use them with care. Opening one of those tabs shows the same notice at the top of the editor.
 
@@ -124,6 +126,7 @@ Stack `trigger + condition + action` like cards. Common combinations are availab
 
 * **36 triggers:** kill, taking damage, hit, miss, evade, dodge, parry, counter, guard success/break, revive, buff/debuff gained or lost, battle start/end, potion, breaking props, MP spent, gold gained, stage entry, game clear, every N seconds, first pickup, HP/MP healed, per amount of HP/MP lost or healed, HP/MP crossing a percentage
 * **26 actions:** heal HP/MP (% and flat), self damage, spend MP, shield, raise max HP/MP, give or take gold, give, remove or upgrade items, random item, reroll dice, temporary stats, permanent stats (for the run), apply or remove buffs, brief invulnerability, stun immunity, fire a projectile, on-screen message
+* **Upgrade an item** enchants the chosen item as many times as the value (a negative value removes that many). It sticks to the item rather than its slot, so it follows the item when moved, and like the game's enchanting it only applies to artifacts, up to their max level.
 * **Fire a projectile** borrows a projectile from a weapon of your choice and sets damage, element, stagger and pierce count. Pierce 1 stops at the first target hit, 0 keeps flying until its lifetime runs out. Leave it empty to keep the borrowed projectile's own value.
 * **Attack kind** is one of basic attack, dash attack, special attack, own attack and monster attack. The first four borrow from a weapon, the last one borrows from a monster.
 * **Monster attack** takes a monster first and then one of that monster's attack slots. Monsters carry their attacks in the same data weapons use, so it fires as it is. Only monsters with a borrowable attack are listed, and both fields must be filled before anything fires. The list fills once you enter the game with the runtime installed.
@@ -298,6 +301,20 @@ Patches hold for the current session. Restart the game to revert them.
 
 ---
 
+## Mod-Wide Features
+
+Settings that the **whole mod applies to vanilla**, rather than single pieces of content. They sit in the `Mod-wide features` group right below `Mod info` in the left list.
+
+* **Vanilla Ban** turns the checked vanilla content into something like the game's own dummy data. The data stays in the game, so items already owned and saves are not broken; players simply can no longer come across it. Use search and `Show banned only` to find entries, and select several rows to ban or unban them at once.
+  * **Items** are never unlocked, so they do not appear in rewards, shops, the mystic pot, miracles, the journal or presets. Items handed out directly by effects or listed as starting items are still given.
+  * **Weapons** are removed from the anvil and training ground upgrade choices, the journal's weapon tree and the random starting weapon pool. Tier 1 base weapons are handed over as soon as a weapon type is picked, so they still appear as starting weapons.
+  * **Costumes** do not appear on the character selection screen and are never unlocked. Anyone wearing one switches to a default character the next time they join (a run in progress is unchanged).
+  * **Miracles** are removed from miracle choices and the journal. If fewer than 3 miracles would remain in a tier, the ban is not applied to that tier.
+  * **Talents** are removed from the talent window and presets, and no points can be put into them. Points already spent stay in the save and come back when the ban is lifted.
+* When several mods list bans, all of them are combined. The lists use the same data as the `Vanilla Reference`; if they are empty, run the game once with the runtime installed.
+
+---
+
 ## Vanilla Reference
 
 So you do not have to check things in game, the runtime's readings are shown across six tabs. The search box applies to all six.
@@ -330,7 +347,7 @@ Select a row and press `Create patch from selection` to turn it into an item pat
 
 * Click a mod row to enable or disable it. `[ Apply Changes ]` saves and quits the game; the change takes effect on the next launch. It is hidden during a run because it would break saves.
 * `Show mod name in item descriptions` appends a `#ModName` line to every custom item description. This one applies immediately and leaves the original text intact when turned off.
-* `Only show rooms from players with the same mods` is on from the start. See [Multiplayer](#multiplayer) below.
+* The lock that only shows rooms to players with the same mods is always on and cannot be turned off. See [Multiplayer](#multiplayer) below.
 
 ---
 
@@ -400,7 +417,7 @@ This exists to prevent someone who does not have your custom items from joining,
 
 * **The mod lists must match exactly.** Even the same mod at a different version can shift item numbering, so you cannot play together. Load order does not matter; the string is always sorted by name.
 * **With no mods enabled, nothing is appended.** Someone who only installed the runtime still plays with vanilla users.
-* Turn it off with `Only show rooms from players with the same mods` in the in-game `ModMaker Info` window, or `"lockMultiplayer": false` in `config.json`. It applies immediately, but **a room you already created carries the version string from the moment it was made**, so you have to recreate the room.
+* Since 2.5.26 this lock is always on and cannot be turned off. A leftover `"lockMultiplayer": false` in an old `config.json` is ignored.
 * Apart from filtering rooms, the version string is only used for display and for a record field in the save, and nothing in the game reads that field back for comparison. **Saves are unaffected.**
 * If another add-on touches the same place, several markers are appended. In that case only players who also have that add-on can see your rooms.
 
@@ -440,7 +457,7 @@ Open Player.log in the Tools menu opens that folder with the file selected.
 A healthy load looks like this.
 
 ```
-[AddOnLoader] ✓ 'ModMaker Runtime' v2.5.25 by ModMaker
+[AddOnLoader] ✓ 'ModMaker Runtime' v2.5.26 by ModMaker
 [ModMakerRuntime] Mod found: My Mod v1.0.0 (3 items, 0 patches)
 ```
 

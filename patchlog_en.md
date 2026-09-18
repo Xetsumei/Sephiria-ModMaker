@@ -1,5 +1,14 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.26 — 2026-09-18
+
+- Added **Mod-wide features → Vanilla ban**. Right below `Mod info` in the left list, check vanilla items, weapons, costumes, miracles and talents to hide them from players while their data stays in the game. They are left out of rewards, shops, choices, the journal and selection screens; items already owned and saves are not broken.
+- The **Upgrade an item** effect action now upgrades the item instead of its slot. It enchants the chosen item as many times as the value (a negative value removes enchantments), so the upgrade follows the item when it is moved. Like the game's enchanting, it only applies to artifacts and only up to their max level.
+- `Only show my room to players with the same mods` is now always on. The setting line in the `ModMaker Info` window was removed and `lockMultiplayer` in `config.json` is no longer read.
+- Fixed `Create patch from selected item` in the Vanilla Reference jumping to a tab other than Item Patch.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.26 too. Mods saved with this version require runtime 2.5.26 or later.
+
 ## 2.5.25 — 2026-09-17
 
 - The **Player size** and **Ranged projectile size** stats now apply wherever a stat can be granted, not only from artifacts: miracles, combos, talents, buffs, weapons, effects, party sharing and vanilla artifact patches. Stat amplification applies to them like any other stat.
