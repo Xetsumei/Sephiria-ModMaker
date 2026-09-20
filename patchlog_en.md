@@ -1,5 +1,16 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.31 — 2026-09-21
+
+- Added a **dark theme** to the ModMaker window. Flip it from `Tools ▾ → Dark mode`, or pick Follow the system / Light / Dark in `Preferences → Appearance`. The default follows the system, and a change applies right away without a restart.
+- Added **Restart the game** to `Preferences → ModMaker Runtime` and to `Tools ▾`. The game reads mods only at startup, so pressing this after `Install to game` shows your edits immediately. A run in progress resumes from the game's own save point.
+- Fixed a negative value in the **Upgrade an item** effect action doing nothing at all. The enchant count can now go below zero, so the item's level really drops, and an artifact whose level falls below zero turns off. When an upgrade cannot be applied, the reason (max level is 0 · already fully enchanted) is written to `Player.log`.
+- **Costume patches** can now remove a game character's stats. Turn on `Replace the original stats with the list below` and leave the list empty for a character with no stats at all, or press `Copy the original stats` and delete only the line you want gone. A value of 0 turns the effect off but the line still shows on the character select screen, so delete the line itself to remove it (for example the scholar lizard's `MP resonance`).
+- Added the artifact option **Party unique**. Only one may exist in the whole party; while anyone carries it, it is dropped from everyone's rewards, shops, mystic pots, miracles, dimension pocket and alchemy candidates. The tooltip's `[Unique effect]` becomes `[Party unique]`.
+- When **DungreedEnemies** is installed in the game, its monsters and assets are available too. The asset library lists `[Dungreed]` sprites and animations, the weapon hit sound picker offers its sound effects, and 121 monsters (18 bosses) appear in the enemy edit and enemy add lists. Nothing is added when it is not installed.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.31 too. Mods saved with this version require runtime 2.5.31 or later.
+
 ## 2.5.29 — 2026-09-18
 
 - Fixed the **Upgrade an item** effect action raising only the enchant count without actually raising the item's level. This covers every case where the upgrade seemed not to trigger, such as an item upgrading itself on `Once on first acquisition`.
