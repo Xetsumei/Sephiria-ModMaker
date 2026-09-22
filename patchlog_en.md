@@ -1,5 +1,12 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.32 — 2026-09-22
+
+- Fixed `Tools ▾ → Dark mode` not actually switching to the dark theme. Only the menu's check mark turned on while the colours stayed light, and picking Dark in `Preferences → Appearance` did nothing either. The change now applies at once, including to windows that are already open.
+- Fixed hover descriptions being **cut off at the right edge**. Long tooltips now wrap onto more lines so the whole text is readable.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.32 too. Mods saved with this version require runtime 2.5.32 or later.
+
 ## 2.5.31 — 2026-09-21
 
 - Added a **dark theme** to the ModMaker window. Flip it from `Tools ▾ → Dark mode`, or pick Follow the system / Light / Dark in `Preferences → Appearance`. The default follows the system, and a change applies right away without a restart.

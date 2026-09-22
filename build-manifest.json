@@ -1,8 +1,8 @@
 {
     "format":  1,
     "kind":  "editor",
-    "version":  "2.5.31",
-    "createdUtc":  "2026-09-20T17:15:36.8316837Z",
+    "version":  "2.5.32",
+    "createdUtc":  "2026-09-22T05:59:36.9360612Z",
     "files":  {
                   ".gitignore":  "81035040942fc013419bb6660d36c895c94ab9cef90afc72216146e5f893ed69",
                   "AssetLibraryExtractor.exe":  "086bb9c249e8657b33af00132a0fdbeeb1e97a4901ece7f2b35128fd5ce835a3",
@@ -10,16 +10,16 @@
                   "docs/사용안내.md":  "1786fa08f150905bdbeb8744a347214a6e9a3ff4b39f16d15c964bbe275913f7",
                   "game_catalog.json":  "5e7de5549fcacae8f606cc4284b97f4eded02263e4fc0c6bb5d8e456cf9c3f90",
                   "LICENSE":  "1ae9f52bd21f6e2693f6b9f666cadd2ef6c88e12311e46e5fad86f9e94f731de",
-                  "ModMakerEditor.deps.json":  "fbe92a67f9aeca315978a4337167b3d01b9c42de7060ab17b8aa252ed0d477c0",
-                  "ModMakerEditor.dll":  "689f293eee67cd785d2d3582607cc0282d936961114c13aeeb45f0ece03da61c",
-                  "ModMakerEditor.exe":  "83a0ad78237769931a241af4d6a86881b6b0664bda1673493fd9223afb14766e",
+                  "ModMakerEditor.deps.json":  "47adbf3653b58420dedacda8d610b434feba0bd41653a47a0430653be3987acb",
+                  "ModMakerEditor.dll":  "b4719758ec808b84057b9db2964df0d22e62d6723ffa04fd81f7188957abf37c",
+                  "ModMakerEditor.exe":  "a4fca33a18f35f7ceb290d33f2bd5b73d5930ebf2c628d481adc1d61d296fb87",
                   "ModMakerEditor.runtimeconfig.json":  "96bc2946dff8790400d652ec7f8de7bb043e954980d59470c112788b68a1fbd3",
                   "Newtonsoft.Json.dll":  "22c649f75fce5be7c7ccda8880473b634ef69ecf33f5d1ab8ad892caf47d5a07",
                   "Runtime/0Harmony.dll":  "7b9e756306fa3d7620e02a857c8927a6ab04973f9bd8a77d3866700a6deac55c",
-                  "Runtime/build-manifest.json":  "7e438d8782f1c53b96d67146b7646bf0786208d8cb7477ed5e0f583638294d95",
+                  "Runtime/build-manifest.json":  "925a4f4c9885280d7d2a6f77a75c0cc8457293bb1618df035bebf923f5a909d4",
                   "Runtime/LICENSE":  "1ae9f52bd21f6e2693f6b9f666cadd2ef6c88e12311e46e5fad86f9e94f731de",
-                  "Runtime/metadata.json":  "a0d94fa9b4e6b3deb4e309d28a294ab2f7cc0eb34c0d3b1427e3d4b25f9fa9e5",
-                  "Runtime/ModMakerRuntime.dll":  "768b8f4bc8f9e1d2afc985be4b8ad6823322281f38e2885e7b2d7b4e38e0acfe",
+                  "Runtime/metadata.json":  "521e45c585780f59f8ae8cac69e869bcf1d76b33b4cb5e67b8b09ee19f6f46aa",
+                  "Runtime/ModMakerRuntime.dll":  "aecba2dc21835645f70d086b71bd9d3d82f9e5e2bb96dea3dd44a236fcda8e12",
                   "Runtime/THIRD_PARTY_NOTICES.md":  "4763e926e6c236444048001bbe3f7c29224f5502056779db20c8bdd1be7531bc",
                   "THIRD_PARTY_NOTICES.md":  "4763e926e6c236444048001bbe3f7c29224f5502056779db20c8bdd1be7531bc"
               }
