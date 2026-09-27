@@ -7,6 +7,18 @@ For manual installation, download **only SephiriaModMaker-version.zip** from the
 
 [한국어](README_ko.md) · [English](README_en.md) · [日本語](README_jp.md) · [中文](README_zh.md)
 
+## 2.5.33 — 2026-09-27
+
+- Added a **Rarity manager** tab (`Mod-wide features → Rarity manager`). Edit the game's rarities (Common · Uncommon · Rare · Legendary · Eternal) or create **new rarities**. The settings apply to the whole game, not just this mod's items.
+  - **Drop chance**: choose Game chance as is · Game chance × multiplier · Fixed chance (%). Applies to level-up and combat rewards, merchants, the pocket dimension shop and miracles, with a preview of the chances at luck 0.
+  - **Color**: set a name color and a gradient end color. The gradient is applied to item names in tooltips, horizontally (or top-to-bottom per letter).
+  - **Wishing fountain cost**: change how many slots one item of each rarity takes.
+  - **Where it appears**: items of the rarity do not appear in unchecked places among level-up reward · combat reward · merchant · pocket dimension shop · miracle · mystic pot · alchemy · wishing fountain · random grant from effects.
+  - New rarities show up in the Items tab's rarity list right away. The `Base rarity` decides the icon frame, default price and default fountain cost. They never come out of the mystic pot and count as their base rarity when put in.
+- Added **Keep out of the fruit skewer** to combos. The combo itself (effects, tooltips, journal) stays; it is only removed from the fruit skewer's fruit list, the sapphire bonus fruit and the skewer's drop weights.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.33 too. Mods saved with this version require runtime 2.5.33 or later.
+
 ## 2.5.32 — 2026-09-22
 
 - Fixed `Tools ▾ → Dark mode` not actually switching to the dark theme. Only the menu's check mark turned on while the colours stayed light, and picking Dark in `Preferences → Appearance` did nothing either. The change now applies at once, including to windows that are already open.
