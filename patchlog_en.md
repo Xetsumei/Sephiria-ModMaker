@@ -1,5 +1,12 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.35 — 2026-09-29
+
+- Fixed some costumes (for example, Deer) failing to open with the error "Several characters' frames for the same action are mixed". The game's costume contained one image from another character; it now opens using that costume's own images.
+- Some error messages that only appeared in Korean are now shown in the language selected in the editor.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.35 too. Mods saved with this version require runtime 2.5.35 or later.
+
 ## 2.5.34 — 2026-09-29
 
 - Fixed effects with the `On hit` trigger and a `Fire an attack` action **multiplying their shots without end**: every shot that landed fired the effect again. With the default setting (`Real attacks only`), hits from shots fired by a mod effect no longer count as attacks. Vanilla artifact and spell damage still count, as before.
