@@ -1,5 +1,12 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.34 — 2026-09-29
+
+- Fixed effects with the `On hit` trigger and a `Fire an attack` action **multiplying their shots without end**: every shot that landed fired the effect again. With the default setting (`Real attacks only`), hits from shots fired by a mod effect no longer count as attacks. Vanilla artifact and spell damage still count, as before.
+- Added **Weapon attacks only** to `Counts as a hit`. It reacts only to hits dealt directly with your weapon, which suits items that fire extra shots on basic attacks. `Every hit I deal` still counts all damage, as before.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.34 too. Mods saved with this version require runtime 2.5.34 or later.
+
 ## 2.5.33 — 2026-09-27
 
 - Added a **Rarity manager** tab (`Mod-wide features → Rarity manager`). Edit the game's rarities (Common · Uncommon · Rare · Legendary · Eternal) or create **new rarities**. The settings apply to the whole game, not just this mod's items.
