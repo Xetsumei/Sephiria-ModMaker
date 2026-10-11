@@ -1,5 +1,14 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.36 — 2026-10-11
+
+- Added **player stun grace** to the Mod info tab. After the player is stunned, they cannot be stunned again for the set number of seconds, which stops several stunning enemies from chaining stuns with no gap. Empty or 0 keeps the game's behaviour. The setting applies to every player in the game.
+- Weapon **attack replacement** now has **Damage element** and **Physical share (%)**. Choose the replacing attack's element (physical, fire, ice, lightning) and blend physical and elemental attack power at any ratio.
+- The monster picker now shows a small picture of each monster. Pictures appear after you run the game once to refresh the reference data.
+- Only when **DungreedEnemies** is installed, its monsters' projectiles can be borrowed by attack replacement and fire-attack effects. Without that add-on they do not appear, and ModMaker contains none of its content.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.36 as well. Mods saved with this version require runtime 2.5.36 or later.
+
 ## 2.5.35 — 2026-09-29
 
 - Fixed some costumes (for example, Deer) failing to open with the error "Several characters' frames for the same action are mixed". The game's costume contained one image from another character; it now opens using that costume's own images.
