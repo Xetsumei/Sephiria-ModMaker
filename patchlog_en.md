@@ -1,5 +1,13 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.37 — 2026-10-15
+
+- Fixed the **starting weapon** of mod-made characters not being applied. When several mods are installed or IDs overlap, a mod weapon's ID can be moved automatically, and the starting weapon ID written on the character did not follow the moved ID. It now follows it, and so does the starting weapon of costume patches.
+- Fixed characters with a starting weapon being switched back to the ordinary starting weapon when they **leave the training room**, even with "starting weapon only" on. They now take their own starting weapon again.
+- The starting item list is now split on `，`, `、` and `;` as well as commas, so a list written on one line is no longer read as a single item. The game log now records how many starting items were applied.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.37 as well. Mods saved with this version require runtime 2.5.37 or later.
+
 ## 2.5.36 — 2026-10-11
 
 - Added **player stun grace** to the Mod info tab. After the player is stunned, they cannot be stunned again for the set number of seconds, which stops several stunning enemies from chaining stuns with no gap. Empty or 0 keeps the game's behaviour. The setting applies to every player in the game.

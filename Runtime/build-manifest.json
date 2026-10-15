@@ -1,13 +1,13 @@
 {
     "format":  1,
     "kind":  "runtime",
-    "version":  "2.5.36",
-    "createdUtc":  "2026-10-11T04:56:00.0141243Z",
+    "version":  "2.5.37",
+    "createdUtc":  "2026-10-15T06:22:35.3095368Z",
     "files":  {
                   "0Harmony.dll":  "7b9e756306fa3d7620e02a857c8927a6ab04973f9bd8a77d3866700a6deac55c",
                   "LICENSE":  "1ae9f52bd21f6e2693f6b9f666cadd2ef6c88e12311e46e5fad86f9e94f731de",
-                  "metadata.json":  "01596a5ca755fdce48206b38160731f2fb40c8973b552c27485ff2955daf18f8",
-                  "ModMakerRuntime.dll":  "ac55e484e63c316acc18d24fb0c9e95d9c8a0d3265b51b2f45376f84b7675106",
+                  "metadata.json":  "3c9ca8684e3773a09d38ccdffd4e5c31fd184c10e99e0e88f68711b81ba6d585",
+                  "ModMakerRuntime.dll":  "78584adde72f1ca4ae0f44b1500a3650d8d5bb938a45b327b641e37c4fe1276b",
                   "THIRD_PARTY_NOTICES.md":  "4763e926e6c236444048001bbe3f7c29224f5502056779db20c8bdd1be7531bc"
               }
 }
