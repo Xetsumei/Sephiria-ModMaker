@@ -133,7 +133,7 @@ No separate loader is needed. The game's built-in add-on loader reads it as is.
 
 ## Publishing to the Steam Workshop
 
-Since Sephiria 1.1.0, mods are shared through the Steam Workshop. A ModMaker mod is published as a data mod that depends on **Sephiria ModMaker Runtime**, the library mod that runs every ModMaker mod.
+Since Sephiria 1.1.0, mods are shared through the Steam Workshop. A ModMaker mod is published as a data mod that depends on [**Sephiria ModMaker Runtime**](https://steamcommunity.com/sharedfiles/filedetails/?id=3831844284), the library mod that runs every ModMaker mod. Players need to subscribe to the runtime as well.
 
 1. Set the title, description, thumbnail and tags in `Project → Workshop info` in the left list. Empty fields are filled in automatically.
 2. Press `Export for Workshop` at the top to create the package in the game's `WorkshopLocal` folder.

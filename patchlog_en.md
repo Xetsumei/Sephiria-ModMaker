@@ -1,5 +1,12 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.39 — 2026-11-02
+
+- **Sephiria ModMaker Runtime** is now on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3831844284). Mods exported for the Workshop link to it as a dependency automatically, so subscribers are told to get the runtime too. If the description is left empty, the default description includes a link to the runtime.
+- The runtime installed into `WorkshopLocal` during export is for testing only. Do not upload it, as that would create a second item with the same name.
+
+When using the Workshop, upload mods saved with this version after the subscribed runtime has updated to 2.5.39. Mods saved with this version require runtime 2.5.39 or later.
+
 ## 2.5.38 — 2026-11-02
 
 - **Steam Workshop support.** Following Sephiria 1.1.0's Workshop mod system, the new **Export for Workshop** button creates a Workshop package in the game's `WorkshopLocal` folder. Test it from the Steam Workshop panel on the game's title screen, then publish it with **Upload to Workshop**. Mods made with ModMaker need the **Sephiria ModMaker Runtime** mod subscribed as well.

@@ -135,7 +135,7 @@
 
 ## 스팀 창작마당에 올리기
 
-세피리아 1.1.0부터 모드는 스팀 창작마당으로 공유합니다. ModMaker 모드는 **Sephiria ModMaker Runtime**(모든 ModMaker 모드를 실행하는 라이브러리 모드)에 의존하는 데이터 모드로 올라갑니다.
+세피리아 1.1.0부터 모드는 스팀 창작마당으로 공유합니다. ModMaker 모드는 [**Sephiria ModMaker Runtime**](https://steamcommunity.com/sharedfiles/filedetails/?id=3831844284)(모든 ModMaker 모드를 실행하는 라이브러리 모드)에 의존하는 데이터 모드로 올라갑니다. 모드를 받는 사람은 런타임도 함께 구독해야 합니다.
 
 1. 왼쪽 목록 `프로젝트 → 창작마당 정보`에서 제목·설명·썸네일·태그를 정합니다. 비운 칸은 자동으로 채워집니다.
 2. 위쪽의 `창작마당용 내보내기`를 누르면 게임 폴더의 `WorkshopLocal`에 패키지가 만들어집니다.

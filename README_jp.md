@@ -133,7 +133,7 @@ Modを保存してから画像・動作の参照ボタンで選ぶと、`Assets/
 
 ## Steamワークショップへの公開
 
-セフィリア1.1.0から、MODはSteamワークショップで共有します。ModMakerのMODは、すべてのModMaker MODを動かすライブラリMOD **Sephiria ModMaker Runtime** に依存するデータMODとして公開されます。
+セフィリア1.1.0から、MODはSteamワークショップで共有します。ModMakerのMODは、すべてのModMaker MODを動かすライブラリMOD [**Sephiria ModMaker Runtime**](https://steamcommunity.com/sharedfiles/filedetails/?id=3831844284) に依存するデータMODとして公開されます。MODを使う人はランタイムも購読する必要があります。
 
 1. 左の一覧の`プロジェクト → ワークショップ情報`でタイトル・説明・サムネイル・タグを設定します。空欄は自動で埋まります。
 2. 上部の`ワークショップ用に書き出し`を押すと、ゲームフォルダーの`WorkshopLocal`にパッケージが作られます。

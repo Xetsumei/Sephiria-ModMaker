@@ -133,7 +133,7 @@
 
 ## 发布到Steam创意工坊
 
-从Sephiria 1.1.0开始，模组通过Steam创意工坊分享。ModMaker模组会作为依赖 **Sephiria ModMaker Runtime**（运行所有ModMaker模组的库模组）的数据模组发布。
+从Sephiria 1.1.0开始，模组通过Steam创意工坊分享。ModMaker模组会作为依赖 [**Sephiria ModMaker Runtime**](https://steamcommunity.com/sharedfiles/filedetails/?id=3831844284)（运行所有ModMaker模组的库模组）的数据模组发布。使用模组的玩家也需要订阅运行库。
 
 1. 在左侧列表的`项目 → 创意工坊信息`中设置标题、说明、缩略图和标签。留空的项会自动填写。
 2. 点击顶部的`导出为创意工坊`，会在游戏文件夹的`WorkshopLocal`中创建包。
