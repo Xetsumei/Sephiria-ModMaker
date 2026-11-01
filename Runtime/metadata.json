@@ -1,6 +1,6 @@
 {
   "modName": "ModMaker Runtime",
-  "modVersion": "2.5.37",
+  "modVersion": "2.5.38",
   "modAuthor": "ModMaker",
   "dllFile": "ModMakerRuntime.dll",
   "entryClass": "ModMakerRuntime.Core"

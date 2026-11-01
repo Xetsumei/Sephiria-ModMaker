@@ -131,6 +131,18 @@ No separate loader is needed. The game's built-in add-on loader reads it as is.
 
 ---
 
+## Publishing to the Steam Workshop
+
+Since Sephiria 1.1.0, mods are shared through the Steam Workshop. A ModMaker mod is published as a data mod that depends on **Sephiria ModMaker Runtime**, the library mod that runs every ModMaker mod.
+
+1. Set the title, description, thumbnail and tags in `Project → Workshop info` in the left list. Empty fields are filled in automatically.
+2. Press `Export for Workshop` at the top to create the package in the game's `WorkshopLocal` folder.
+3. Test it from the `Steam Workshop` panel on the game's title screen, then press `Upload to Workshop`. It is first uploaded as unlisted; subscribe to check it, then make it public.
+
+Raise the version in `Mod info` with every update. Multiplayer lobbies use it to check that players have the same mod. Do not delete `uploadticket.json` in the package folder. See the [user guide](docs/사용안내.md) (Korean) for details.
+
+---
+
 ## Quick Start
 
 1. `New mod`, then pick an empty folder. `mod.json` and `Assets/` are created.

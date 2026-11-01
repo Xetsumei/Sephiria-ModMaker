@@ -1,5 +1,16 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.38 — 2026-11-02
+
+- **Steam Workshop support.** Following Sephiria 1.1.0's Workshop mod system, the new **Export for Workshop** button creates a Workshop package in the game's `WorkshopLocal` folder. Test it from the Steam Workshop panel on the game's title screen, then publish it with **Upload to Workshop**. Mods made with ModMaker need the **Sephiria ModMaker Runtime** mod subscribed as well.
+- **Project → Workshop info** in the left list sets the title, description (per language), thumbnail, tags and modId shown on the Workshop. Without a chosen thumbnail the default ModMaker image is used, and images over 1 MB are shrunk when chosen.
+- Mods loaded from the Workshop are turned on, off and ordered in the game's Workshop panel; the "ModMaker info" window only lists them. The Workshop runtime keeps its records in `AppData\LocalLow\TEAMHORAY\Sephiria\ModMakerRuntime` and takes over the ID map and settings of the AddOns runtime the first time it runs.
+- The AddOns runtime and the Workshop runtime cannot run together. Exporting asks whether to turn the AddOns one off; **Install to game** turns it back on.
+- Mods with scripts must be rebuilt before they can be exported for the Workshop, and they go through the game's code review.
+- Fixed **character bans** in Vanilla ban (dressing banned characters as another one) and the **fruit skewer exclusion** of combos (sapphire bonus fruit) not working after the game's 1.1 update.
+
+After updating the editor, use **Install to game** to update the bundled runtime to 2.5.38 as well. When using the Workshop, **Export for Workshop** updates the runtime package too. Mods saved with this version require runtime 2.5.38 or later.
+
 ## 2.5.37 — 2026-10-15
 
 - Fixed the **starting weapon** of mod-made characters not being applied. When several mods are installed or IDs overlap, a mod weapon's ID can be moved automatically, and the starting weapon ID written on the character did not follow the moved ID. It now follows it, and so does the starting weapon of costume patches.

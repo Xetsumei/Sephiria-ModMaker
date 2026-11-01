@@ -1,10 +1,10 @@
 {
   "format": 1,
-  "version": "2.5.37",
-  "zipName": "SephiriaModMaker-2.5.37.zip",
-  "sha256": "01ac1736f8167af1b1e5ca56ed420bf5dded1e01e90e53b0fe9162eef08292a5",
-  "bytes": 29796674,
+  "version": "2.5.38",
+  "zipName": "SephiriaModMaker-2.5.38.zip",
+  "sha256": "c2f00fdf171f880ba82507a36f58143c36d2131e1d42f48a3bee2a81d682ca5c",
+  "bytes": 30907953,
   "minimumDotnet": "10.0.0",
-  "notesUrl": "https://github.com/Xetsumei/Sephiria-ModMaker/releases/tag/2.5.37",
-  "signature": "0pAMujV4frnEGIJZyrsXGCU2gEgPvrQ1oLrvOqW2hvWvrE+69lsYNoS566YoyOwsP+HtOXDJzaj7+pElgbXB1g=="
+  "notesUrl": "https://github.com/Xetsumei/Sephiria-ModMaker/releases/tag/2.5.38",
+  "signature": "O761kQLzN53L2r+9Ew1lw+7lJQehAxg4+GX9f23TC9SbAtfmzcvjzrccY5k7gAUWVhQoou9tsnyTC8OFOlMwGg=="
 }
