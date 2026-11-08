@@ -1,5 +1,14 @@
 ﻿# Sephiria ModMaker — Update history
 
+## 2.5.40 — 2026-11-08
+
+- Added **Russian, Polish and Spanish** to the editor UI. Select a language in Preferences.
+- The three languages are also available as a mod’s base or additional language, for content names, descriptions, effects, criteria, rarity names and Workshop titles/descriptions.
+- Split localization export now includes `lang_ru.json`, `lang_pl.json` and `lang_es.json`. Untranslated fields fall back to the base language; existing languages and custom locales are preserved.
+- Vanilla reference text and built-in runtime stat labels and messages support the new languages too.
+
+After updating the editor, update the bundled runtime to **2.5.40** too. Before publishing Workshop mods, make sure the subscribed runtime has been updated to 2.5.40.
+
 ## 2.5.39 — 2026-11-02
 
 - **Sephiria ModMaker Runtime** is now on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3831844284). Mods exported for the Workshop link to it as a dependency automatically, so subscribers are told to get the runtime too. If the description is left empty, the default description includes a link to the runtime.

@@ -1,5 +1,7 @@
 ﻿# Sephiria ModMaker
 
+The editor UI and mod localization support Korean, English, Japanese, Chinese, Russian, Polish and Spanish. Choose the UI language in Preferences and the mod’s base/additional languages in Mod info.
+
 For manual installation, download **only SephiriaModMaker-version.zip** from the release. **You do not need to download update.json or put it in the installation folder.** The updater reads it to check the version and verify the download. Using the update command in the editor also handles the ZIP download for you.
 
 - README and patch notes are available in the GitHub repository and are not included in release ZIPs.
